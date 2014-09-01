@@ -7,7 +7,7 @@ It is recommended that you first read [this guide to learn how to setup a stand 
 
 ## Hardware Required
 
-![](images/Raspberry-pis.jpg)
+![](images/Raspberry-Pis.jpg)
 
 ### What you will need for a stand alone class set of Raspberry Pis
 - A number of Raspberry Pis (one between two can work depending on the work students are doing) Either [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/)
