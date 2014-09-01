@@ -78,6 +78,9 @@ To do this first make a backup of the default config file and then save my one i
   The first line tells dnsmasq to listen for DHCP requests on the Ethernet port of the Pi. The second line is specifying the   range of IP addresses that can be given out. The third line provides the default gateway for the host computer (which       won't actually be used here).
 
 1. Disconnect the Pi from the LAN and reboot by typing `sudo reboot`.
+
+## Step 5: Test the connection
+
 1. After the Pi boots back up, give it a minute or so, and you can go ahead and plug in the single Ethernet cable directly from the Pi to the host computer. The host computer should then be given an IP address which will be `10.0.0.X` where X is a random number between 2 and 250.
 1. Test that there is a working connection by opening up a command prompt on the host computer (a Terminal on OSX and Linux) and enter the following command `ping 10.0.0.1`.
 
