@@ -5,7 +5,9 @@ If you are looking to use Raspberry Pis in your classroom then there are a numbe
 ## Getting Started with Raspberry Pi
 It is recommended that you first read [this guide to learn how to setup a stand alone Raspberry Pi](getting-started-guide.md) for the first time, if you are new to using the device, before reading on.
 
-One way to use Raspberry Pi in the classsroom, is as a stand alone device that students can use outside of the school network to create programs and electronic projects on, without fear of breaking expesnive equipment or of taking down an entire school network. It is an environment that allows for the freedom of failure, and it is through failing that students learn.
+One way to use Raspberry Pi in the classsroom, is as a stand alone device that students can use outside of the school network to create programs and electronic projects on, without fear of breaking expesnive equipment or of taking down an entire school network. It is an environment that allows for the freedom of failure, and it is through failing that students learn. If a file system becomes corrupted then its okay as you can always start again with a fresh SD card image. If you blow an LED, it doesn't matter. 
+
+Another appealing feature of the Raspberry Pi in education is that it looks interesting, and students ask questions about the hardware. How is it a computer? How does it work? What are input and output devices? Where does it store its software? and so on. 
 
 ## Hardware Required
 
