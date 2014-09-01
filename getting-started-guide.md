@@ -74,6 +74,4 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running, now what? Let'
 If you are new to using Linux, then you may wish to learn a little about how to use commands to navigate around your Raspberry Pi, create files and run applications using simple text.
 
 Then it's time to get learning or making using our [Raspberry Pi Learning Resources here](http://www.raspberrypi.org/resources/).
-	
-	
-	![](images/success.png)
+
