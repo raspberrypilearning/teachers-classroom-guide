@@ -13,7 +13,7 @@ Before you begin, check that you have all the parts that your need:
 
 - SD Card
 	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
-	- You can [buy a card with NOOBS pre-installed](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card), or you can download it for free from our downloads page.
+	- You can [buy a card with NOOBS pre-installed](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card), or you can download it for free from our [downloads page](http://www.raspberrypi.org/downloads/).
 	
 - Display and connecting cables
 	- Any HDMI/DVI monitor or TV should work as a display for the Pi . 
