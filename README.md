@@ -3,7 +3,7 @@
 If you are looking to use Raspberry Pis in your classroom then there are a number of ways in which you can do this outlined in this guide. Some solutions repurpose established classroom kit in order to minimise further expense.
 
 ## Getting Started with Raspberry Pi
-It is recommended that you first read [this guide to learn how to setup a stand alone Raspberry Pi](/setup/getting-started-guide.md) for the first time, if you are new to using the device, before reading on.
+It is recommended that you first read [this guide to learn how to setup a stand alone Raspberry Pi](getting-started-guide.md) for the first time, if you are new to using the device, before reading on.
 
 ## Hardware Required
 
