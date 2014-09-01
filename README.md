@@ -29,9 +29,9 @@ You could use existing school monitors with Raspberry Pis. You will need to chec
 - **HDMI** The Raspberry Pi outputs through a HDMI connector to a TV or Monitor. Most modern TVs, Monitors, and Projectors use HDMI. However this is not always the case in classrooms where technology is a few years older.
   ![](images/HDMI-connector.jpg)
 - **DVI** If the monitors in your classroom do not have a HDMI connector but do have a DVI connector then you can purchase HDMI to DVI cables. This is an additional cost but these cables are relatively inexpensive and replace the need for HDMI cables. 
-  ![](Dvi-cable.jpg)
+  ![](images/Dvi-cable.jpg)
 - **VGA** If you have equipment that is more than a few years old, then it is likely that the monitors will have VGA connectors on them. In this case you will need to get a VGA adapter for the Raspberry Pi. This is an additional cost. It is recommended that before you make this choice that you look at some of the solutions below for using the school network to connect to the Pis instead.
-  ![](Vga-cable.jpg)
+  ![](images/Vga-cable.jpg)
 
 ## Networked Solutions
 
