@@ -50,13 +50,13 @@ You can purchase a kit from the Raspberry Pi Swag Store to help get started [her
 ## Step 2: Plugging in your Raspberry Pi
 Now you have all the parts you need to get up and running, let's start plugging in!
 
-1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi, which will only fit one way. *Note that the software NOOBS should already be on this card. If it isn't then follow the [NOOBS guide here]().*
+1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi, which will only fit one way. *Note that the software NOOBS should already be on this card. If it isn't then follow the [NOOBS guide here](http://www.raspberrypi.org/help/noobs-setup/).*
 1. Next, plug in your USB keyboard and Mouse into the USB slots on the Raspberry Pi.
 Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc)
 1. Then connect your HDMI cable from your Raspberry Pi to your monitor or TV.
 1. If you intend to connect your Raspberry Pi to the internet, plug in an ethernet cable into the ethernet port next to the USB ports, otherwise skip this step.
 1. When you are happy that you have plugged in all the cables and SD card required, finally plug in the micro usb power supply. This action will turn on and boot your Raspberry Pi.
-1. If this is the first time your Raspberry Pi and NOOBS SD card have been used, then you will have to select an operating system and configure it. [Follow the NOOBS guide to do this]().
+1. If this is the first time your Raspberry Pi and NOOBS SD card have been used, then you will have to select an operating system and configure it. [Follow the NOOBS guide to do this](http://www.raspberrypi.org/help/noobs-setup/).
 
 ## Step 3: Logging into your Raspberry Pi
 Hurrah, Raspbian has loaded, your Raspberry Pi is up and running, now what? Let's log in to find out:
