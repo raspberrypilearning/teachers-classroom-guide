@@ -7,13 +7,11 @@ Before you begin, check that you have all the parts that your need:
 
 ### Required items:
 
-- A Raspberry Pi
-
-	![](images/Raspberry-pi.png)
+- A Raspberry Pi (Either a [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/))
 
 - SD Card
 	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
-	- You can buy a card with NOOBS pre-installed, or you can download it for free from our downloads page.
+	- You can [buy a card with NOOBS pre-installed](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card), or you can download it for free from our downloads page.
 	
 	![](images/SD-card.png)
 	
@@ -29,7 +27,7 @@ Before you begin, check that you have all the parts that your need:
 	![](images/keyboard-and-mouse.png)
 	
 - Power supply
-	- Use a 5V micro USB power supply to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave in strange ways.
+	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave in strange ways.
 	
 	![](images/powersupply.png)
 
@@ -39,7 +37,7 @@ You can purchase a kit from the Raspberry Pi Swag Store to help get started [her
 
 - Internet connection
 	- To update or download software, we recommend that you connect your Raspberry Pi to the internet either via and ethernet cable or a wifi adapter.
-	- If you have a wifi adapter see our [wifi setup guide here]().
+	- If you have a wifi adapter see our [wifi setup guide here](http://www.raspberrypi.org/documentation/configuration/wireless/README.md).
 	
 	![](images/internet-connections.png)
 
