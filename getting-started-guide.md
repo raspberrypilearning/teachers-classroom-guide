@@ -52,8 +52,6 @@ You can purchase a kit from the Raspberry Pi Swag Store to help get started [her
 ## Step 2: Plugging in your Raspberry Pi
 Now you have all the parts you need to get up and running, let's start plugging in!
 
-Johnny Ball Video? 
-
 1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi, which will only fit one way. *Note that the software NOOBS should already be on this card. If it isn't then follow the [NOOBS guide here]().*
 1. Next, plug in your USB keyboard and Mouse into the USB slots on the Raspberry Pi.
 Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc)
