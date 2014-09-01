@@ -33,8 +33,8 @@ You could use existing school monitors with Raspberry Pis. You will need to chec
 ## Networked Solutions
 
 ### Remote Desktop from Classroom Computers to Raspberry Pis
-- [Using VNC to connect to a Raspberry Pi from a desktop computer](/setup/vnc-classroom-guide.md)
-- [Using VNC through a browser window](/setup/vnc-browser-guide)
+- [Using VNC to connect to a Raspberry Pi from a desktop computer](vnc-classroom-guide.md)
+- [Using VNC through a browser window](vnc-browser-guide.md)
 
 ### Raspberry Pi Terminal Server 
 - [Raspberry Pi Linux Terminal Server Project](http://gbaman.github.io/RaspberryPi-LTSP/)
