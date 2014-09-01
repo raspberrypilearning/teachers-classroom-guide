@@ -7,6 +7,8 @@ It is recommended that you first read [this guide to learn how to setup a stand 
 
 ## Hardware Required
 
+![](images/Raspberry-pis.jpg)
+
 ### What you will need for a stand alone class set of Raspberry Pis
 - A number of Raspberry Pis (one between two can work depending on the work students are doing) Either [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/)
 - Enough [SD Cards or Micro SD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+) for each Pi for Student. 
