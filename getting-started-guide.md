@@ -13,23 +13,15 @@ Before you begin, check that you have all the parts that your need:
 	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
 	- You can [buy a card with NOOBS pre-installed](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card), or you can download it for free from our downloads page.
 	
-	![](images/SD-card.png)
-	
 - Display and connecting cables
 	- Any HDMI/DVI monitor or TV should work as a display for the Pi . 
 	- For best results, use one with HDMI input, but other connections are available for older devices. 
 	
-	![](images/display-options.png)
-	
 - Keyboard and mouse
 	- Any standard USB keyboard and mouse will work with your Raspberry Pi.
 	
-	![](images/keyboard-and-mouse.png)
-	
 - Power supply
 	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave in strange ways.
-	
-	![](images/powersupply.png)
 
 You can purchase a kit from the Raspberry Pi Swag Store to help get started [here](http://swag.raspberrypi.org/collections/frontpage/products/b-raspberry-pi-starter-kit)
 
@@ -38,14 +30,10 @@ You can purchase a kit from the Raspberry Pi Swag Store to help get started [her
 - Internet connection
 	- To update or download software, we recommend that you connect your Raspberry Pi to the internet either via and ethernet cable or a wifi adapter.
 	- If you have a wifi adapter see our [wifi setup guide here](http://www.raspberrypi.org/documentation/configuration/wireless/README.md).
-	
-	![](images/internet-connections.png)
 
 - Sound
 	- Headphones, earphones or speakers with a 3.5mm jack will work with your Raspberry Pi.
-	
-	![](images/sound-jack.png)
-		
+
 	
 ## Step 2: Plugging in your Raspberry Pi
 Now you have all the parts you need to get up and running, let's start plugging in!
@@ -65,7 +53,6 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running, now what? Let'
 1. After you have successfully logged in, you will see the command line prompt `pi@raspberrypi~$`
 1. To load the graphical user interface, type `startx` and press **Enter** on your keyboard.
 	
-	![](images/desktop.png)
 	
 ## What next?
 
