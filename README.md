@@ -75,4 +75,12 @@ The Raspberry Pi Community is ready, willing and in most cases able to help scho
 
 > When I started to use Raspberry Pis in my classroom in late 2012, the monitors were all VGA. At that time there was not a converter cable garanteed to work, so I put a message out on twitter asking if any local businesses were getting rid of any DVI monitors. Within a couple of minutes I had a response, and that weekend I collected the monitors I needed for free. 
 
-> The Raspberry Pi community is one of the most helpful I've ever been in contact with as a teacher. Using the [forums](http://www.raspberrypi.org/forums) or Twitter with the hashtag `#raspberrypi` or `#picademy` could be a way to find solutions for your classroom too. ~Carrie Anne Philbin
+> The Raspberry Pi community is one of the most helpful I've ever been in contact with as a teacher. Using the [forums](http://www.raspberrypi.org/forums) or Twitter with the hashtag `#raspberrypi` or `#picademy` could be a way to find solutions for your classroom too. ~ Carrie Anne Philbin
+
+### The Community Page
+On our website we feature prominent people and organisations within our community who are doing great outreach work. It is a good starting point to learn more about Raspberry Pi.
+- [Offical Community Page](http://www.raspberrypi.org/community/)
+
+### The Forum
+If you have a question, whatever your level or experience, then you can ask it on our Forum. We have an education section especially setup for this. It is an extremely friendly forum, where someone will answer your question very quickly and polietly. A number of our Raspberry Pi Certified Educators are active on this forum helping to answer questions and share good practice. 
+- [Education Section of Forum](http://www.raspberrypi.org/forums/viewforum.php?f=17&sid=f9cb8df1edfa3781e9a7afa26aaa4e42)
