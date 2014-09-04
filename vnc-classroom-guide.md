@@ -34,7 +34,7 @@ Install the VNC server software on Pi and the VNC viewer software on the host co
 
 ## Step 3: If necessary, configure the Pi to give out an IP address
 
-This is the method you'll want to use if your network administrator refuses to allow a Raspberry Pi to be connected to the main school network. This way each Raspberry Pi will be directly connecting to a host computer using a single Ethernet cable, thus making a completely isolated point-to-point network between the two. 
+This is the method you'll want to use if your school policies prohibit un-managed devices, such as a Raspberry Pi, to be connected to the main school network. This way each Raspberry Pi will be directly connecting to a host computer using a single Ethernet cable, thus making a completely isolated point-to-point network between the two. 
 
 *Note: you don't need a crossover cable for this; a standard cable will work because the Pi Ethernet port auto-switches the transmit and receive pins.*
 
