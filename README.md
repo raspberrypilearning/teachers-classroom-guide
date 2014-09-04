@@ -73,6 +73,7 @@ Using Raspberry Pis in a classroom can also offer different ways of teaching and
 With qualified teachers among our staff we are producing teaching materials, including full schemes of work that are cross-curricular, engaging, and satisfy the curriculum. They are published under a Creative Commons licence so that teachers can use them however they see fit.
 
 - [Teach - Raspberry Pi Teaching Resources](http://www.raspberrypi.org/resources/teach/)
+- A great place to start is with our [Getting Started Lesson](http://www.raspberrypi.org/learning/getting-started-with-raspberry-pi-lesson/)
 
 ## Training
 
