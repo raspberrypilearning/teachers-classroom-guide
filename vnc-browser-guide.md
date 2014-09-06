@@ -47,53 +47,12 @@ This system will work on any HTML5-compliant web browser, in particular these br
 	sudo cp vnc_auto.html index.html
 	```
 
-1. Next we need to set everything to start automatically, since you're probably going to want to use the Raspberry Pi in headless mode (without a keyboard, mouse or monitor). To do this we just need to create a few scripts inside `init.d`. Enter the following commands:
+1. Next we need to set everything to start automatically, since you're probably going to want to use the Raspberry Pi in headless mode (without a keyboard, mouse or monitor). To do this we just need to download a few scripts for `init.d`. Enter the following commands:
 
 	```
 	cd /etc/init.d/
+	sudo wget http://www.raspberrypi.org/learning/teachers-classroom-guide/vncboot
 	sudo nano vncboot
-	```
-
-1. You will now be editing a blank file. Copy and paste or type the following:
-
-	```
-	## BEGIN INIT INFO
-	# Provides: vncboot
-	# Required-Start: $remote_fs $syslog
-	# Required-Stop: $remote_fs $syslog
-	# Default-Start: 2 3 4 5
-	# Default-Stop: 0 1 6
-	# Short-Description: Start VNC Server at boot time
-	# Description: Start VNC Server at boot time.
-	### END INIT INFO
-
-	#!/bin/sh
-	#/etc/init.d/vncboot
-
-	export USER='pi'
-
-	eval cd ~$USER
-
-	# Check the state of the command: this will either be start or stop
-	case "$1" in
-  		start)
-    		# if it's start, then start vncserver using the details below
-    		echo "Starting VNC for $USER..."
-    		su $USER -c '/usr/bin/tightvncserver :1 -geometry 1280x800'
-    		echo "...done (VNC)"
-    		;;
-  		stop)
-    		# if it's stop, then just kill the process
-    		echo "Stopping VNC for $USER "
-    		su $USER -c '/usr/bin/tightvncserver -kill :1'
-    		echo "...done (VNC)"
-    		;;
-  		*)
-    		echo "Usage: /etc/init.d/vncserver {start|stop}"
-    		exit 1
-    		;;
-	esac
-	exit 0
 	```
 
 	*Note the line that says `-geometry 1280x800`. This sets the screen resolution for the remote desktop, so you may wish to alter this to suit the screen size of the host computer. Ideally this should be set slightly lower to avoid having scrollbars.*
@@ -107,53 +66,17 @@ This system will work on any HTML5-compliant web browser, in particular these br
 	sudo update-rc.d vncboot defaults
 	```
 
+	Ignore any messages about missing LSB tags and overrides. That's the server part done. Next we need to setup a similar script for the HTML5 client.
+
 ## Step 2: Setting up the client
 
-With the server side completed, you now need to set up a similar script for the HTML5 client.
+With the server side completed, you now need to download a similar script for the HTML5 client.
 
-1. Type `sudo nano vncproxy` and press **Enter**. You will now be editing a blank file. Copy and paste or type the following:
+1. Enter the following command:
 
 	```
-	### BEGIN INIT INFO
-	# Provides: vncproxy
-	# Required-Start: $remote_fs $syslog
-	# Required-Stop: $remote_fs $syslog
-	# Default-Start: 2 3 4 5
-	# Default-Stop: 0 1 6
-	# Short-Description: Start VNC http Proxy at boot time
-	# Description: Start VNC http Proxy at boot time.
-	### END INIT INFO
-
-	#!/bin/sh
-	#/etc/init.d/vncproxy
-
-	USER=root
-	HOME=/root
-
-	export USER HOME
-
-	case "$1" in
- 	  start)
-  		echo "Starting VNC Proxy..."
-  		screen -S noVNC -dms noVNC /usr/local/share/noVNC/utils/launch.sh --vnc localhost:5901 --listen 80
-  		echo "...done (VNC Proxy)"
-  		;;
-
- 	  stop)
-  		echo "Stopping VNC Proxy..."
-  		screen -x noVNC -X stuff "^C"
-  		echo "...done (VNC Proxy)"
-  		;;
-
- 	  *)
-  		echo "Usage: /etc/init.d/vncproxy {start|stop}"
-  		exit 1
-  		;;
-	esac
-	exit 0
+	sudo wget http://www.raspberrypi.org/learning/teachers-classroom-guide/vncproxy
 	```
-
-1. Press **Ctrl** and **O** followed by **Enter** to save, then **Ctrl** and **X** to quit editing.
 
 1. Then register this script with Linux by typing:
 
@@ -161,6 +84,8 @@ With the server side completed, you now need to set up a similar script for the 
 	sudo chmod 755 vncproxy 
 	sudo update-rc.d vncproxy defaults 98
 	```
+	
+	Ignore any messages about missing LSB tags and overrides.
 
 1. Now reboot your Raspberry Pi by typing `sudo reboot` and both services will start up automatically. When the Pi has rebooted, you should now be able to enter the IP address of the Raspberry Pi into the web browser of the host computer. You will be prompted for the password that you specified when setting up the VNC server.
 
