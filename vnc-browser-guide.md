@@ -51,7 +51,7 @@ This system will work on any HTML5-compliant web browser, in particular these br
 
 	```
 	cd /etc/init.d/
-	sudo wget http://www.raspberrypi.org/learning/teachers-classroom-guide/vncboot
+	sudo wget https://raw.githubusercontent.com/raspberrypilearning/teachers-classroom-guide/master/vncboot --no-check-certificate
 	sudo nano vncboot
 	```
 
@@ -75,7 +75,7 @@ With the server side completed, you now need to download a similar script for th
 1. Enter the following command:
 
 	```
-	sudo wget http://www.raspberrypi.org/learning/teachers-classroom-guide/vncproxy
+	sudo wget https://raw.githubusercontent.com/raspberrypilearning/teachers-classroom-guide/master/vncproxy --no-check-certificate
 	```
 
 1. Then register this script with Linux by typing:
