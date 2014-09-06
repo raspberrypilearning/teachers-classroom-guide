@@ -1,0 +1,37 @@
+## BEGIN INIT INFO
+# Provides: vncboot
+# Required-Start: $remote_fs $syslog
+# Required-Stop: $remote_fs $syslog
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Start VNC Server at boot time
+# Description: Start VNC Server at boot time.
+### END INIT INFO
+
+#!/bin/sh
+#/etc/init.d/vncboot
+
+export USER='pi'
+
+eval cd ~$USER
+
+# Check the state of the command: this'll either be start or stop
+case "$1" in
+  start)
+    # if it's start, then start vncserver using the details below
+    echo "Starting VNC for $USER..."
+    su $USER -c '/usr/bin/tightvncserver :1 -geometry 1280x800'
+    echo "...done (VNC)"
+    ;;
+  stop)
+    # if it's stop, then just kill the process
+    echo "Stopping VNC for $USER "
+    su $USER -c '/usr/bin/tightvncserver -kill :1'
+    echo "...done (VNC)"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/vncserver {start|stop}"
+    exit 1
+    ;;
+esac
+exit 0
