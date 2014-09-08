@@ -66,7 +66,7 @@ You or your network administrators may wish to integrate Raspberry Pis more perm
 
 Using Raspberry Pis in a classroom can also offer different ways of teaching and learning. It opens up the possibility of seeing computing more as a creative and maker-style activity. Computing can be a truly cross-curricular subject in Art, Science and Technology. Raspberry Pi can offer more than you realise in education.
 
-- [What does a good computing classroom look like? By Clive Beale](http://www.raspberrypi.org/blog/#what-does-a-good-computing-classroom-look-like)
+- [What does a good computing classroom look like? By Clive Beale](http://www.raspberrypi.org/what-does-a-good-computing-classroom-look-like)
 
 ## Teaching resources
 
