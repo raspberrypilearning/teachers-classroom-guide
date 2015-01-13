@@ -1,0 +1,1 @@
+If you are looking to use Raspberry Pis in your classroom, then there are a number of ways you can do this outlined in this guide. Some solutions repurpose existing classroom kit in order to minimise further expense.
