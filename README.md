@@ -1,4 +1,4 @@
-# A teacher's guide to using Raspberry Pi in the classroom
+# A teachers' guide to using Raspberry Pi in the classroom
 
 ![](cover.png)
 
