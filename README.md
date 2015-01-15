@@ -18,7 +18,7 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
 
 ### What you will need for a standalone class set of Raspberry Pis
 
-- A number of Raspberry Pis; one between two can work depending on the work students are doing. Either [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/).
+- A number of Raspberry Pis; one between two can work depending on the work students are doing. Either [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/) will be fine for this exercise.
 - Enough [SD Cards or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+) for each Pi.
 - USB keyboards and mice for each Pi.
 - [Micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) for each Pi.
