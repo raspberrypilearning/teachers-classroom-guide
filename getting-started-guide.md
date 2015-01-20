@@ -2,7 +2,7 @@
 
 You've got a Raspberry Pi, congratulations! I'm sure that you are bursting with excitement to get going to create your own projects. Then what are you waiting for? Follow all the steps below.
 
-## Step 1: Make sure that you have everything that you need
+## Step 1: Make sure you have everything you need
 
 Before you begin, check that you have all the parts that you need:
 
