@@ -62,7 +62,7 @@ You or your network administrators may wish to integrate Raspberry Pis more perm
 
 ### Raspberry Pi Terminal Server
 
-- [Raspberry Pi Linux Terminal Server Project](http://gbaman.github.io/RaspberryPi-LTSP/)
+- [PiNet](http://pinet.org.uk/)
 
 ## Cross-curricular opportunities
 
