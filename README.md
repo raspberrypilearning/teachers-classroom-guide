@@ -64,6 +64,9 @@ You or your network administrators may wish to integrate Raspberry Pis more perm
 
 - [PiNet](http://pinet.org.uk/)
 
+## Managing a class set
+- [How to make a class set of SD cards](class-sd-cards.md)
+
 ## Cross-curricular opportunities
 
 Using Raspberry Pis in a classroom can also offer different ways of teaching and learning. It opens up the possibility of seeing computing more as a creative and maker-style activity. Computing can be a truly cross-curricular subject in Art, Science and Technology. Raspberry Pi can offer more than you realise in education.
@@ -82,7 +85,6 @@ With qualified teachers among our staff we are producing teaching materials, inc
 Here at the Raspberry Pi Foundation we offer FREE CPD for teachers as the Raspberry Pi Academy or Picademy for short. To find out more click on the links below:
 
 - [Picademy Page](http://www.raspberrypi.org/picademy)
-- [Picademy 3. A report of some note by Clive Beale](http://www.raspberrypi.org/picademy-3-report/)
 
 ## Asking the community
 
