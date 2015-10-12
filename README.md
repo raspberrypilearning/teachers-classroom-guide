@@ -8,7 +8,7 @@ If you are looking to use Raspberry Pis in your classroom, then there are a numb
 
 It is recommended that you first read [this guide to learn how to set up a standalone Raspberry Pi](getting-started-guide.md) for the first time, if you are new to using the device, before reading on.
 
-One way to use Raspberry Pi in the classsroom is as a standalone device that students can use outside of the school network to create programs and electronic projects, without fear of breaking expensive equipment or taking down an entire school network. It is an environment that allows for the freedom of failure, and it is through failing that students learn. If a file system becomes corrupted then it's okay, as you can always start again with a fresh SD card image. If you blow an LED, it doesn't matter.
+One way to use Raspberry Pi in the classroom is as a standalone device that students can use outside of the school network to create programs and electronic projects, without fear of breaking expensive equipment or taking down an entire school network. It is an environment that allows for the freedom of failure, and it is through failing that students learn. If a file system becomes corrupted then it's okay, as you can always start again with a fresh SD card image. If you blow an LED, it doesn't matter.
 
 Another appealing feature of the Raspberry Pi in education is that it looks interesting, and students ask questions about the hardware. How is it a computer? How does it work? What are input and output devices? Where does it store its software? and so on.
 
@@ -18,8 +18,8 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
 
 ### What you will need for a standalone class set of Raspberry Pis
 
-- A number of Raspberry Pis; one between two can work depending on the work students are doing. Either [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/) will be fine for this exercise.
-- Enough [SD Cards or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+) for each Pi.
+- A number of Raspberry Pis; one between two can work depending on the work students are doing. Either [Model B](https://www.raspberrypi.org/products/model-b/), [Model B+](https://www.raspberrypi.org/products/model-b-plus/) or [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) will be fine for this exercise.
+- Enough [SD Cards (Model B) or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+ and Pi 2) for each Pi.
 - USB keyboards and mice for each Pi.
 - [Micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) for each Pi.
 - HDMI cable to connect to a monitor for each Pi (see Monitor Solutions below).
@@ -32,7 +32,7 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
 
 ### Optional extras
 
-- [Pi Hubs](http://shop.pimoroni.com/products/pihub) can be used to power more than one Raspberry Pi and provides extra USB slots.
+- [USB Hubs](http://thepihut.com/products/7-port-usb-hub-for-the-raspberry-pi) can be used to power more than one Raspberry Pi and provides extra USB slots.
 - An SD card duplicator to copy SD card images to multiple cards. These are handy for making a class set. Unfortunately, they cost £500 or more.
 
 ## Monitor solutions
@@ -53,16 +53,16 @@ You could use existing school monitors with Raspberry Pis. You will need to chec
 
 ## Networked solutions
 
-You or your network administrators may wish to integrate Raspberry Pis more permanently into the school network. This is often a way to use existing hardware to connect to a Raspberry Pi, negating the need for extra monitors. Below are a number of ways of connecting to a Raspberry Pi using remote desktop software such as VNC, and a guide to using a Raspberry Pi terminal server as a solution to shared folders and SD card problems.
+You or your network administrators may wish to integrate Raspberry Pis more permanently into the school network. This is often a way to use existing hardware to connect to a Raspberry Pi, negating the need for extra monitors. Below are a number of ways of connecting to a Raspberry Pi using remote desktop software such as VNC and details on using PiNet as a solution to user accounts, shared folders and SD card problems.
 
 ### Remote Desktop from classroom computers to Raspberry Pis
 
 - [Using VNC to connect to a Raspberry Pi from a desktop computer](vnc-classroom-guide.md)
 - [Using VNC through a browser window](vnc-browser-guide.md)
 
-### Raspberry Pi Terminal Server
-
-- [PiNet](http://pinet.org.uk/)
+### PiNet
+PiNet is a free centralised user accounts and file storage system for Raspberry Pi classrooms. With it, all Raspberry Pis load off a central server and any student can sit down at any Raspberry Pi in the classroom and login. It was designed from the ground up to be incredibly easy for teachers to setup and use.    
+More details can be found on the [PiNet website](http://pinet.org.uk/).   
 
 ## Managing a class set
 - [How to make a class set of SD cards](class-sd-cards.md)
