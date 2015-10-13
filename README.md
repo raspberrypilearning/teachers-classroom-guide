@@ -61,8 +61,7 @@ You or your network administrators may wish to integrate Raspberry Pis more perm
 - [Using VNC through a browser window](vnc-browser-guide.md)
 
 ### PiNet
-PiNet is a free centralised user accounts and file storage system for Raspberry Pi classrooms. With it, all Raspberry Pis load off a central server and any student can sit down at any Raspberry Pi in the classroom and login. It was designed from the ground up to be incredibly easy for teachers to setup and use.    
-More details can be found on the [PiNet website](http://pinet.org.uk/).   
+PiNet is a free centralised user accounts and file storage system for Raspberry Pi classrooms. With it, all Raspberry Pis load off a central server and any student can sit down at any Raspberry Pi in the classroom and login. It was designed to be incredibly easy for teachers to setup and use. More details can be found on the [PiNet website](http://pinet.org.uk/).   
 
 ## Managing a class set
 - [How to make a class set of SD cards](class-sd-cards.md)
