@@ -96,7 +96,7 @@ The Raspberry Pi Community is ready, willing and in most cases able to help scho
 ### The community page
 
 On our website we feature prominent people and organisations within our community who are doing great outreach work. It is a good starting point to learn more about Raspberry Pi.
-- [Offical Community Page](http://www.raspberrypi.org/community/)
+- [Official Community Page](http://www.raspberrypi.org/community/)
 
 ### The forum
 
