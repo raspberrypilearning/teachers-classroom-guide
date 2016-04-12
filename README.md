@@ -70,6 +70,7 @@ PiNet is a free centralised user accounts and file storage system for Raspberry 
 
 ## Managing a class set
 - [How to make a class set of SD cards](class-sd-cards.md)
+- [Backing up your files on an SD Card](https://www.raspberrypi.org/learning/noobs-install/backup/)
 
 ## Cross-curricular opportunities
 
