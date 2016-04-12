@@ -23,9 +23,9 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
   - [Raspberry Pi Model B+](https://www.raspberrypi.org/products/model-b-plus/)
   - [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
   - [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
-  - Enough [SD Cards (Model B) or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+ and Pi 2) for each Pi.
+  - Enough 8 GB SD Cards or microSD Cards for each Pi.
 1. USB keyboards and mice for each Pi.
-1. [Micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) for each Pi.
+1. [Micro USB power supply](https://www.raspberrypi.org/products/universal-power-supply/) for each Pi.
 1. HDMI cable to connect to a monitor for each Pi (see Monitor Solutions below).
 1. A monitor for each Pi.
 
