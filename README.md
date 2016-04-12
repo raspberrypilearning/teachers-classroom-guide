@@ -6,7 +6,7 @@ If you are looking to use Raspberry Pis in your classroom, then there are a numb
 
 ## Getting started with Raspberry Pi
 
-It is recommended that you first read [this guide to learn how to set up a standalone Raspberry Pi](getting-started-guide.md) for the first time, if you are new to using the device, before reading on.
+It is recommended that you first read [this guide to learn how to set up a standalone Raspberry Pi](https://www.raspberrypi.org/learning/quick-start-guide/worksheet/) for the first time, if you are new to using the device, before reading on.
 
 One way to use Raspberry Pi in the classroom is as a standalone device that students can use outside of the school network to create programs and electronic projects, without fear of breaking expensive equipment or taking down an entire school network. It is an environment that allows for the freedom of failure, and it is through failing that students learn. If a file system becomes corrupted then it's okay, as you can always start again with a fresh SD card image. If you blow an LED, it doesn't matter.
 
@@ -18,17 +18,22 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
 
 ### What you will need for a standalone class set of Raspberry Pis
 
-- A number of Raspberry Pis; one between two can work depending on the work students are doing. Either [Model B](https://www.raspberrypi.org/products/model-b/), [Model B+](https://www.raspberrypi.org/products/model-b-plus/) or [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) will be fine for this exercise.
-- Enough [SD Cards (Model B) or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+ and Pi 2) for each Pi.
-- USB keyboards and mice for each Pi.
-- [Micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) for each Pi.
-- HDMI cable to connect to a monitor for each Pi (see Monitor Solutions below).
-- A monitor for each Pi.
+1. A number of Raspberry Pis; one between two can work depending on the work students are doing. You may have one or more of the following models:
+  - [Raspberry Pi Model B](https://www.raspberrypi.org/products/model-b/) 
+  - [Raspberry Pi Model B+](https://www.raspberrypi.org/products/model-b-plus/)
+  - [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+  - [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
+  - Enough [SD Cards (Model B) or microSD Cards](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card) (Model B+ and Pi 2) for each Pi.
+1. USB keyboards and mice for each Pi.
+1. [Micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) for each Pi.
+1. HDMI cable to connect to a monitor for each Pi (see Monitor Solutions below).
+1. A monitor for each Pi.
 
 ### Further items you will need for a networked class set of Raspberry Pis
 
 - Ethernet cable connection
 - Or a WiFi dongle (like [this one](http://thepihut.com/products/usb-wifi-adapter-for-the-raspberry-pi) from [The Pi Hut](http://thepihut.com/))
+- If you have Raspberry Pi 3's then you can use the onboard wifi connection. 
 
 ### Optional extras
 
