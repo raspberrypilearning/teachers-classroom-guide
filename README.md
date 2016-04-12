@@ -14,7 +14,7 @@ Another appealing feature of the Raspberry Pi in education is that it looks inte
 
 ## Hardware required
 
-![](images/Raspberry-Pis.jpg)
+![](images/raspberry-pi.png)
 
 ### What you will need for a standalone class set of Raspberry Pis
 
