@@ -1,3 +1,6 @@
+#!/bin/sh
+#/etc/init.d/vncproxy
+
 ### BEGIN INIT INFO
 # Provides: vncproxy
 # Required-Start: $remote_fs $syslog
@@ -7,9 +10,6 @@
 # Short-Description: Start VNC http Proxy at boot time
 # Description: Start VNC http Proxy at boot time.
 ### END INIT INFO
-
-#!/bin/sh
-#/etc/init.d/vncproxy
 
 USER=root
 HOME=/root
