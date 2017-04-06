@@ -1,5 +1,7 @@
 # A teachers' guide to using Raspberry Pi in the classroom
 
+[NOTE: This resource is no longer maintained and has been replaced by **teachers-guide**]
+
 ![](cover.png)
 
 If you would like to use Raspberry Pis in your classroom, then there are a number of ways to do this outlined in this guide. Some solutions repurpose existing classroom kit in order to minimise further expense.
